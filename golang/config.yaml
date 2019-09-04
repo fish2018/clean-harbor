@@ -1,0 +1,5 @@
+num: 10 # 需要保留最新的tag数
+harbor:
+  url: "https://harbor.test.com"
+  username: "username"
+  password: "password"
