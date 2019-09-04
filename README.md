@@ -42,7 +42,7 @@ harbor:
   password: "password"
 ```
 
-### 安装依赖
+### 编译
 ```
 export GOPROXY=https://goproxy.cn
 go build
