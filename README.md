@@ -32,7 +32,7 @@ python3 harborgc.py
 
 ## golang版使用方法
 
-## 修改配置
+### 修改配置
 修改config.yaml文件，根据自己情况设置harbor地址、用户名、密码和要保留的最近的镜像数量
 ```
 num: 10 # 需要保留最新的tag数
@@ -42,13 +42,13 @@ harbor:
   password: "password"
 ```
 
-### 编译
+### 编译二进制
 ```
 export GOPROXY=https://goproxy.cn
 go build
 ```
 
-# 执行程序
+### 执行程序
 ```
 ./harbor-clean
 ```
